@@ -29,17 +29,17 @@ Perfect for learning **Three.js**, **3D design**, and **interactive environments
 
 ## 📦 Project Structure
 
-3d-office-tour/
-│
-├── index.html
-├── style.css
-├── main.js
-├── robot.js
-├── departments.js
-├── welcomeCharacter.js
-├── counter.js
-└── README.md
-
+3d-office-html/
+└── project/
+     ├── index.html
+     ├── style.css
+     ├── main.js
+     ├── robot.js
+     ├── departments.js
+     ├── welcomeCharacter.js
+     ├── counter.js
+     ├── README.md
+     └── LICENSE
 
 
 ---
