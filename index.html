@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Office- FitProjectsByMoris</title>
+<link rel="stylesheet" href="./style.css" />
+
+</head>
+<body>
+  <div id="canvas-container"></div>
+
+  <div class="brand-header">
+    <div class="brand-logo">
+      <div class="logo-icon">FP</div>
+      <div class="brand-text">
+        <span class="brand-name">FitProjectsByMoris</span>
+        <span class="brand-subtitle">3D Office Website</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="department-popup" class="department-popup">
+    <div class="popup-header">
+      <div class="popup-icon"></div>
+      <h3 id="dept-title">Department</h3>
+    </div>
+    <p id="dept-desc">Welcome message...</p>
+    <button id="visit-btn" class="visit-btn">Visit Department</button>
+  </div>
+
+  <div class="controls-panel">
+    <button id="enter-btn" class="control-btn primary">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+      <span>Start Tour</span>
+    </button>
+    <div class="department-list" id="dept-list">
+      <div class="dept-list-header">Quick Navigation</div>
+    </div>
+  </div>
+
+  <div class="hint-box">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M12 16v-4M12 8h.01"/>
+    </svg>
+    <span>Click department buttons to navigate. Robot will walk to each location.</span>
+  </div>
+
+  <div id="loading-screen" class="loading-screen">
+    <div class="loader-content">
+      <div class="loader-spinner"></div>
+      <div class="loader-text">Loading Office Environment...</div>
+      <div class="loader-progress">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+    </div>
+  </div>
+
+<script type="module" src="./main.js"></script>
+<script type="module" src="./counter.js"></script>
+<script type="module" src="./departments.js"></script>
+<script type="module" src="./robot.js"></script>
+<script type="module" src="./welcomeCharacter.js"></script>
+
+</body>
+</html>
